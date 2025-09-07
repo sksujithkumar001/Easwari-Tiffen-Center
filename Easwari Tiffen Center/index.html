@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f9f9;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    .menu-container {
+      max-width: 900px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+    }
+
+    .logo img {
+      height: 110px;
+    }
+
+    .menu-title {
+      text-align: center;
+      font-size: 1.2rem; 
+      color: #1a3c40;
+      margin-bottom: 2px;
+      border-bottom: 3px solid #1abc9c;
+      display: inline-block;
+      
+    }
+
+    .menu-category {
+      font-size: 1.6rem;
+      color: #1abc9c;
+      margin: 40px 0 20px;
+      border-left: 6px solid #17a589;
+      padding-left: 12px;
+    }
+
+    .menu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      font-size: 1.05rem;
+    }
+
+    .menu-item span {
+      color: #34495e;
+    }
+
+    .price {
+      color: #17a589;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      .menu-title {
+        font-size: 1.5rem;
+      }
+
+      .menu-category {
+        font-size: 1.3rem;
+      }
+
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .price {
+        margin-top: 5px;
+      }
+    }
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #eafaf7;
+  color: #2c3e50;
+  border-top: 2px solid #1abc9c;
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <div class="logo">
+      <img src="C:\Users\sksuj\Desktop\grandma-chef-logo-removebg-preview.png" alt="Restaurant Logo">
+    </div>
+
+    <h1 class="menu-title">EASHWARI TIFFEN CENTER</h1>
+
+    <div class="menu-category">MENU CARD</div>
+    <ul class="menu-list">
+      <li class="menu-item"><span>1 IDLY</span> <span class="price">₹7</span></li>
+      <li class="menu-item"></span>1 VUDHI VADA<span class="price">₹7</span></li>
+      <li class="menu-item"><span>1 ALASANDHA VADA</span> <span class="price">₹7</span></li>
+      <li class="menu-item"></span>PONGAL  [PLATE]<span class="price">₹30</span></li>
+      <li class="menu-item"></span>1 VUGANI<span class="price">₹30</span></li>
+      <li class="menu-item">2 Poori   </span><span class="price">₹30</span></li>
+    </ul>
+  <div class="menu-category">DOSA VARIETIES</div>
+    <ul class="menu-list">
+      <li class="menu-item">Single Omlet<span></span> <span class="price">₹15</span></li>
+      <li class="menu-item"><span>Plain Dosa </span> <span class="price">₹25</span></li>
+      <li class="menu-item">doubble Omlet<span></span> <span class="price">₹25</span></li>
+      <li class="menu-item"><span>Podi Dosa</span> <span class="price">₹35</span></li>
+      <li class="menu-item"><span>Karam Dosa</span> <span class="price">₹35</span></li>
+      <li class="menu-item">Egg Dosa<span></span> <span class="price">₹40</span></li>
+      <li class="menu-item"><span>Onion Dosa</span> <span class="price">₹50</span></li>
+      <li class="menu-item">Uthapam<span></span> <span class="price">₹50</span></li>
+               
+   <li class="menu-item">Doubble Egg Dosa<span></span> <span class="price">₹50</span></li>
+      
+    </ul>
+  </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p><strong>Easwari Tiffen Center</strong></p>
+        <p>Siva Jothi nagar, Tirupathi, Andhra Pradesh, India</p>
+        <p>📞 +91 7981154329</p>
+        <p>Open Daily: 6:45 AM – 11:30 AM </p>
+      </div>
+    </footer>
+
+</body>
+</html>
